@@ -20,38 +20,14 @@
     text-align: center; /* Centers the text horizontally within each div */
 }
 
-#ban1 {
-    margin-left: 50px;
-    padding-right: 50px;
-    font-size: x-large;
-    text-decoration: underline;
-    color: white;
-}
-
-#ban2 {
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: x-large;
-    text-decoration: underline;
-    color: white;
-}
-
-#ban3 {
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: x-large;
-    text-decoration: underline;
-    color: white;
-}
-
+#ban1,
+#ban2,
+#ban3,
 #ban4 {
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: x-large;
-    text-decoration: underline;
-    color: white;
+    margin-left: 0; /* Reset margin */
+    padding: 10px;
 }
-
+    
 h3 {
     font-size: small;
     padding-bottom: 20px;
