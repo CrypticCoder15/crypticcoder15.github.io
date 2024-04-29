@@ -14,20 +14,43 @@
 
 .banner {
     padding-top: 80px;
-    margin-left: 400px;
     display: flex;
     justify-content: center; /* Aligns inner divs horizontally at the center */
     text-align: center; /* Centers the text horizontally within each div */
 }
 
-#ban1,
-#ban2,
-#ban3,
-#ban4 {
-    margin-left: 0; /* Reset margin */
-    padding: 10px;
+#ban1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    text-decoration: underline;
+    color: white;
 }
-    
+
+#ban2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    text-decoration: underline;
+    color: white;
+}
+
+#ban3 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    text-decoration: underline;
+    color: white;
+}
+
+#ban4 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    text-decoration: underline;
+    color: white;
+}
+
 h3 {
     font-size: small;
     padding-bottom: 20px;
