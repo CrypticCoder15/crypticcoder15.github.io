@@ -1,0 +1,94 @@
+.body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+.textart {
+    font-size: 12px;
+    padding-right: 100px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.banner {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center; /* Aligns inner divs horizontally at the center */
+    text-align: center; /* Centers the text horizontally within each div */
+}
+
+#ban1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    text-decoration: underline;
+    color: white;
+}
+
+#ban2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    text-decoration: underline;
+    color: white;
+}
+
+#ban3 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    text-decoration: underline;
+    color: white;
+}
+
+#ban4 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    text-decoration: underline;
+    color: white;
+}
+
+h3 {
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+.matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure the image is behind other content */
+    width: 100%; /* Ensure the image covers the entire viewport */
+    height: 100%; /* Ensure the image covers the entire viewport */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    opacity: 0.19;
+}
+
+.coder {
+    padding-top: 150px;
+}
+
+.lang {
+    padding-top: 150px;
+}
+
+.whoami {
+    padding-top: 120px;
+}
+
+.projects {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.contact {
+    padding-bottom: 100px;
+    font-size: 20px;
+}
+
+.iam {
+    font-size: 20px;
+}
